@@ -3,7 +3,9 @@ An ESP32 based, 1D, LED strip, dungeon crawler. inspired by Line Wobbler by Robi
 
 This was ported from the [TWANG fork](https://github.com/bdring/TWANG) by bdring of [Buildlog.net Blog](http://www.buildlog.net/blog?s=twang)
 
-[![Youtube Video](http://www.buildlog.net/blog/wp-content/uploads/2018/05/vid_thumb.png)](https://www.youtube.com/watch?v=RXpfa-ZvUMA)
+Modifications:
+ - use LSM6DSOX accelerometer instead of the MPU6050
+ - pin changes for IdeaBoard
 
 ![TWANG LED Game](http://www.buildlog.net/blog/wp-content/uploads/2018/01/20180111_130909-1.jpg?s=200)
 
