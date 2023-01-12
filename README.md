@@ -56,8 +56,8 @@ Modifications:
 ## Hardware used:
 * ESP32, I typically use the NodeMCU-32S module
 * LED light strip. The more the better, maximum of 1000. Tested with 1x & 2x 144/meter, 12x 60/meter and 5m x 114/meter strips. This has been tested with APA102C and NeoPixel type strips. Anything compatible with the FastLED library should work.
-* MPU6050 accelerometer
-* Spring doorstop, I used [these](http://smile.amazon.com/gp/product/B00J4Y5BU2)
+* MPU6050 accelerometer. EDIT: This version uses the LSM6DSOX accelerometer.
+* Spring doorstop
 * Speaker and amplifier. I use a PAM8403 module. (ESP32 cannot drive a speaker as loudly as an Arduino)
 
 See [Buildlog.net Blog](http://www.buildlog.net/blog?s=twang) for more details.
